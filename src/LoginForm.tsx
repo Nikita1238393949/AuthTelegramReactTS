@@ -28,7 +28,7 @@ const LoginForm: React.FC = () => {
                 message: 'Успешный вход(ТГ)',
                 description: 'Вход успешен'
             });
-            navigate(`/clientarea`, data.token);
+            navigate(`/clientarea`, {state: {token: data.token}});
             //передаю токен на личный кабинет через роутер
             return true;
         } catch (error) {
