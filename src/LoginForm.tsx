@@ -152,7 +152,7 @@ const LoginForm: React.FC = () => {
                         </Button>
                     </Form.Item>
                     <div>
-                        <TelegramLoginButton dataOnAuth={TelegramResponse} botName="lmsitmobot"/>
+                        <TelegramLoginButton dataOnAuth={TelegramResponse} botName=""/>
                     </div>
                 </Form>
             </Card>
