@@ -44,7 +44,7 @@ const ClientArea: React.FC = () => {
                 >
                     <div>
                         <TelegramLoginButton dataOnAuth={(user) => LinkTelegramAccount(tokenData, user)}
-                                             botName="lmsitmobot"/>
+                                             botName=""/>
                     </div>
                 </Form>
             </Card>
